@@ -136,7 +136,7 @@ public class DerrubeEmpresas {
 
             while(!success & attempts++ < 200) {
                 location = (int)(Math.random() * gradeTam);
-// System.out.println("try" + location);
+// System.out.println("try" + local);
                 int x = 0;
                 success = true;
                 while(success && x < comSize) {
@@ -154,8 +154,8 @@ public class DerrubeEmpresas {
                         System.out.println("used" + location);
                         success = false;
                     }
-                }//end of inner while loop
-            }//end of outer while loop
+                }
+            }
 
             int x = 0;
             int row = 0;
